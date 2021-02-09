@@ -1,0 +1,10 @@
+on: 
+  workflow_dispatch:
+
+name: Provision azure resources
+
+jobs:
+
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
